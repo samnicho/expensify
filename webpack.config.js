@@ -5,7 +5,6 @@ module.exports = (env) => {
   const isProd = env === "production";
 
   return {
-    watch: true,
     entry: "./src/app.js",
     output: {
       path: path.join(__dirname, "public"),
